@@ -1,0 +1,29 @@
+{
+  "name": "bridge",
+  "version": "1.0.0",
+  "description": "Bridge is used to transfer METO tokens between Binance Smart Chain and Polygon mainnet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhad-zada/Bridge.git"
+  },
+  "author": "Farhad Zada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhad-zada/Bridge/issues"
+  },
+  "homepage": "https://github.com/farhad-zada/Bridge#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.0.3",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts-ccip": "^1.2.1",
+    "@openzeppelin/contracts-upgradeable": "^5.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
